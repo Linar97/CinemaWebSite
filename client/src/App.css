@@ -1,0 +1,59 @@
+.App {
+  text-align: left;
+  margin-left: 18%;
+  margin-right: 34%;
+}
+.div{
+  border: solid 3px black;
+  margin-bottom: 10px;
+}
+
+.smallerDiv{
+  margin-right: 34%;
+}
+
+.subscriptionDiv{
+  border: solid 3px red;
+}
+
+button{
+  margin-left: 4px;
+  margin-bottom: 10px ;
+  background-color: white;
+  border: solid 1px lightgrey;
+}
+button:hover{
+  background-color: yellow;
+}
+
+button:focus{
+  background-color: yellow;
+}
+
+.mainDiv{
+  margin-left: 18%;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
