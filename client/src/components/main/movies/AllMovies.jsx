@@ -30,7 +30,7 @@ export default function AllMoviesComp() {
         setMoviesAfterSearch([...matchedMovies])
     }
 
-    const deleteMovie = async (id, movie) => {
+    const deleteMovie = async (id) => {
         const { data } = await axios.delete("http://localhost:8000/movies/" + id)
         if (data === "deleted") {
             const newMoviesArr = movies.filter(m => !m._id === id)
