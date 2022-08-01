@@ -7,3 +7,7 @@ To run client:
 To run server:
 - cd server/config
 -node server.js
+
+user name : Bret 
+
+password : Bret
